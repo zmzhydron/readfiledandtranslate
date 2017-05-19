@@ -1,0 +1,165 @@
+﻿    /**
+     * 单维圆球
+     * col1=展示名称<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=统计值<br>
+     */
+    ONE_DIM_SPHERE(3),
+    /**
+     * 单维梭型
+     * col1=展示名称<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=统计值<br>
+     */
+    ONE_DIM_ELLIPSE(3),
+    /**
+     * 单维气泡图
+     * col1=展示名称<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=统计值<br>
+     */
+    ONE_DIM_BUBBLE(3),
+    /**
+     * 单维气泡图
+     * col1=id<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=属性2<br>
+     * col4=属性3<br>
+     */
+    ONE_DIM_BUBBLE_TYPE(4),
+    /**
+     * 单维环绕气泡图
+     * col1=name<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=属性2<br>
+     */
+    AROUND_BUBBLE(3),
+    /**
+     * 环绕气泡图——四种属性值
+     * col1=name<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=totalNumber<br>
+     * col3=id<br>
+     * col5=得分<br>
+     * col6=排名<br>
+     */
+    AROUND_BUBBLE_4(6),
+    /**
+     * 多维圆球
+     * col1=父类名称（PARENTNAME）<br>
+     * col2=子类名称（CHILDNAME）<br>
+     * col3=父类ID（PARENT_ID）(含下钻分析Filter对象)<br>
+     * col4=子类ID（CHILD_ID）(含下钻分析Filter对象)<br>
+     * col5=父类总数（PARENT_VAL）<br>
+     * col6=子类总数（CHILD_VAL）<br>
+     */
+    MULTI_DIM_SPHERE(6),
+    /**
+     * 四象图
+     * col1=聚类ID（CLUSTER_ID）<br>
+     * col2=聚类收入（CLUSTER_ARPU）（Y轴）<br>
+     * col3=聚类影响力（CLUSTER_INFLUENCE_SCORE）（X轴）<br>
+     * col4=平均收入（AVG_ARPU）<br>
+     * col5=平均影响力（AVG_INFLUENCE_SCORE）<br>
+     * col6=用于下钻分析（QUADRANT_ID）<br>
+     * col7=四象限维表名称（QUADRANT_NAME_CN）<br>
+     * col8=统计聚类ID对应总数（COUNT）<br>
+     * col9=统计某个象限对应总数（SUM）<br>
+     */
+    FOUR_QUADRANT(9),
+    /**
+     * 散点图
+     * col1=营销渠道名称（NAME）（Y轴）<br>
+     * col2=营销渠道ID（FLAG）<br>
+     * col3=营销渠道时刻（DATE_TIME）（X轴）<br>
+     * col4=统计值（VAL）<br>
+     */
+    SCATTER_CHART(4),
+    /**
+     * GIS气泡图
+     * col1=纬度（XPOS）<br>
+     * col2=经度（YPOS）<br>
+     * col3=方向角（DIRECTION_ANGLE）<br>
+     * col4=小区名字（CELL_NAME）<br>
+     * col5=小区ID（CELL_ID）<br>
+     * col6=数量（NUM）<br>
+     */
+    GIS_BUBBLE_CHART(6),
+    /**
+     * GIS气泡展示详情
+     * col1=纬度（XPOS）<br>
+     * col2=经度（YPOS）<br>
+     * col3=方向角（DIRECTION_ANGLE）<br>
+     * col4=小区名字（CELL_NAME）<br>
+     * col5=小区类型（CELL_TYPE）<br>
+     * col6=小区ID（CELL_ID）<br>
+     * col7=配色（color）<br>
+     * col8=指标取值范围（range）<br>
+     * col9=统计数量（NUM）<br>
+     * col10=用户人数（TOTAL_USER）<br>
+     */
+    GIS_BUBBLE_CHART_DETAIL(10),
+    /**
+     * GIS行政区域
+     * col1=行政区域名称<br>
+     * col2=行政区域ID<br>
+     * col3=统计值<br>
+     */
+    GIS_REGION(3),
+    /**
+     * GIS热力图
+     * col1=纬度（XPOS）<br>
+     * col2=经度（YPOS）<br>
+     * col3=方向角（DIRECTION_ANGLE）<br>
+     * col4=小区名字（CELL_NAME）<br>
+     * col5=小区ID（CELL_ID）<br>
+     * col6=数量（NUM）<br>
+     */
+    GIS_HEATMAP(6),
+    /**
+     * 历史趋势柱状图
+     * col1=展示名称<br>
+     * col2=统计值<br>
+     */
+    BAR_GRAPHS(2),
+    /**
+     * 树结构
+     * col1=展示名称<br>
+     * col2=标记(含下钻分析Filter对象)<br>
+     * col3=统计值<br>
+     */
+    FLOW_TREE(3),
+    /**
+     * GIS定界
+     * col1=配色<br>
+     * col2=重要性取值范围<br>
+     * col3=纬度（XPOS）<br>
+     * col4=经度（YPOS）<br>
+     * col5=方向角（DIRECTION_ANGLE）<br>
+     * col6=小区ID（CELL_ID）<br>
+     * col7=小区名字（CELL_NAME）<br>
+     * col8=统计值<br>
+     * col9=用户人数
+     */
+    MULTI_VALUE_GIS(9),
+    /**
+     * TOP 汇聚气泡
+     * col1=重要性取值范围<br>
+     * col2=纬度（XPOS）<br>
+     * col3=经度（YPOS）<br>
+     */
+    TOP_CLUSTER_BUBBLE(3),
+    /**
+     * GIS双座标
+     * Column_1=小区ID
+     * Column_2=小区名字
+     * Column_3=小区经度
+     * Column_4=小区纬度
+     * Column_5=营业厅名称
+     * Column_6=营业厅经度
+     * Column_7=营业厅纬度
+     * Column_8=营业厅与小区距离
+     * Column_9=营业厅图标路径
+     * Column_10=小区总人数/小区总流量
+     */
+    GIS_DOUBLE_COORDINATE(10);

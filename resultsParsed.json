@@ -1,0 +1,219 @@
+{
+  "": {
+    "rules": []
+  },
+  "ONE_DIM_CHART_C": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "标记",
+        "labelUS": "sign",
+        "index": "2",
+        "rawlabel": "col2=标记"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "单维带编码类型"
+  },
+  "ONE_DIM_CHART": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "2",
+        "rawlabel": "col2=统计值"
+      }
+    ],
+    "descname": "单维类型"
+  },
+  "TWO_LEVEL_CHART": {
+    "rules": [
+      {
+        "label": "父类名称",
+        "labelUS": "Parent class name",
+        "index": "1",
+        "rawlabel": "Column_1=父类名称"
+      },
+      {
+        "label": "子类名称",
+        "labelUS": "Subclass name",
+        "index": "2",
+        "rawlabel": "Column_2=子类名称"
+      },
+      {
+        "label": "父类ID",
+        "labelUS": "Parent class ID",
+        "index": "3",
+        "rawlabel": "Column_3=父类ID"
+      },
+      {
+        "label": "子类IDbr>",
+        "labelUS": "Subclass IDbr>",
+        "index": "4",
+        "rawlabel": "Column_4=子类IDbr>"
+      },
+      {
+        "label": "父类总数",
+        "labelUS": "Total parent class",
+        "index": "5",
+        "rawlabel": "Column_5=父类总数"
+      },
+      {
+        "label": "子类总数",
+        "labelUS": "Subclass total",
+        "index": "6",
+        "rawlabel": "Column_6=子类总数"
+      }
+    ],
+    "descname": "二层关系"
+  },
+  "TWO_DIM_CHART": {
+    "rules": [
+      {
+        "label": "X轴维度1名称",
+        "labelUS": "X axis dimension 1 name",
+        "index": "1",
+        "rawlabel": "Column_1=X轴维度1名称"
+      },
+      {
+        "label": "维度2名称",
+        "labelUS": "Dimension 2 name",
+        "index": "2",
+        "rawlabel": "Column_2=维度2名称"
+      },
+      {
+        "label": "Y轴数量",
+        "labelUS": "Y axis number",
+        "index": "3",
+        "rawlabel": "Column_3=Y轴数量"
+      }
+    ],
+    "descname": "二维"
+  },
+  "THREE_DIM_CHART_2Y": {
+    "rules": [
+      {
+        "label": "X轴维度",
+        "labelUS": "X axis dimension",
+        "index": "1",
+        "rawlabel": "Column_1=X轴维度"
+      },
+      {
+        "label": "维度1名称",
+        "labelUS": "Dimension 1 name",
+        "index": "2",
+        "rawlabel": "Column_2=维度1名称"
+      },
+      {
+        "label": "Y轴维度1数据",
+        "labelUS": "Y axis dimension 1 data",
+        "index": "3",
+        "rawlabel": "Column_3=Y轴维度1数据"
+      },
+      {
+        "label": "维度2名称",
+        "labelUS": "Dimension 2 name",
+        "index": "4",
+        "rawlabel": "Column_4=维度2名称"
+      },
+      {
+        "label": "Y轴维度2数据",
+        "labelUS": "Y axis dimension 2 data",
+        "index": "5",
+        "rawlabel": "Column_5=Y轴维度2数据"
+      }
+    ],
+    "descname": "二维"
+  },
+  "BAR_GRAPHS": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "2",
+        "rawlabel": "col2=统计值"
+      }
+    ],
+    "descname": "历史趋势柱状图"
+  },
+  "INFO_LIST": {
+    "rules": [
+      {
+        "label": "小区ID",
+        "labelUS": "Community ID",
+        "index": "1",
+        "rawlabel": "Column_1=小区ID"
+      },
+      {
+        "label": "小区名字",
+        "labelUS": "Cell name",
+        "index": "2",
+        "rawlabel": "Column_2=小区名字"
+      },
+      {
+        "label": "营业厅名称",
+        "labelUS": "Business hall name",
+        "index": "3",
+        "rawlabel": "Column_3=营业厅名称"
+      },
+      {
+        "label": "距离",
+        "labelUS": "distance",
+        "index": "4",
+        "rawlabel": "Column_4=距离"
+      },
+      {
+        "label": "值",
+        "labelUS": "value",
+        "index": "5",
+        "rawlabel": "Column_5=值"
+      }
+    ],
+    "descname": "信息列表数据"
+  },
+  "FOUR_QUADRANT": {
+    "rules": [
+      {
+        "label": "四象名称",
+        "labelUS": "Four.",
+        "index": "1",
+        "rawlabel": "col1=四象名称"
+      },
+      {
+        "label": "四象排序ID",
+        "labelUS": "The four order ID",
+        "index": "2",
+        "rawlabel": "col2=四象排序ID"
+      },
+      {
+        "label": "统计总数",
+        "labelUS": "Statistical total",
+        "index": "3",
+        "rawlabel": "col3=统计总数"
+      }
+    ],
+    "descname": "四象"
+  }
+}

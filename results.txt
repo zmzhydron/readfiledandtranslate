@@ -1,0 +1,62 @@
+﻿
+    /**
+     * 单维带编码类型
+     * col1=展示名称<br>
+     * col2=标记<br>
+     * col3=统计值<br>
+     */
+    ONE_DIM_CHART_C(3),
+    /**
+     * 单维类型
+     * col1=展示名称<br>
+     * col2=统计值<br>
+     */
+    ONE_DIM_CHART(2),
+    /**
+     * 二层关系
+     * Column_1=父类名称<br>
+     * Column_2=子类名称<br>
+     * Column_3=父类ID<br>
+     * Column_4=子类IDbr>
+     * Column_5=父类总数<br>
+     * Column_6=子类总数<br>
+     */
+    TWO_LEVEL_CHART(6),
+    /**
+     * 二维
+     * Column_1=X轴维度1名称<br>
+     * Column_2=维度2名称<br>
+     * Column_3=Y轴数量<br>
+     */
+    TWO_DIM_CHART(3),
+    /**
+     * 二维
+     * Column_1=X轴维度<br>
+     * Column_2=维度1名称<br>
+     * Column_3=Y轴维度1数据<br>
+     * Column_4=维度2名称<br>
+     * Column_5=Y轴维度2数据<br>
+     */
+    THREE_DIM_CHART_2Y(5),
+    /**
+     * 历史趋势柱状图
+     * col1=展示名称<br>
+     * col2=统计值<br>
+     */
+    BAR_GRAPHS(2),
+    /**
+     * 信息列表数据
+     * Column_1=小区ID<br>
+     * Column_2=小区名字<br>
+     * Column_3=营业厅名称<br>
+     * Column_4=距离<br>
+     * Column_5=值<br>
+     */
+    INFO_LIST(5),
+    /**
+     * 四象
+     * col1=四象名称<br>
+     * col2=四象排序ID<br>
+     * col3=统计总数<br>
+     */
+    FOUR_QUADRANT(3);

@@ -1,0 +1,653 @@
+{
+  "": {
+    "rules": []
+  },
+  "ONE_DIM_SPHERE": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "单维圆球"
+  },
+  "ONE_DIM_ELLIPSE": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "单维梭型"
+  },
+  "ONE_DIM_BUBBLE": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "单维气泡图"
+  },
+  "ONE_DIM_BUBBLE_TYPE": {
+    "rules": [
+      {
+        "label": "id",
+        "labelUS": "ID",
+        "index": "1",
+        "rawlabel": "col1=id"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "属性2",
+        "labelUS": "Property 2",
+        "index": "3",
+        "rawlabel": "col3=属性2"
+      },
+      {
+        "label": "属性3",
+        "labelUS": "Property 3",
+        "index": "4",
+        "rawlabel": "col4=属性3"
+      }
+    ],
+    "descname": "单维气泡图"
+  },
+  "AROUND_BUBBLE": {
+    "rules": [
+      {
+        "label": "name",
+        "labelUS": "Name",
+        "index": "1",
+        "rawlabel": "col1=name"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "属性2",
+        "labelUS": "Property 2",
+        "index": "3",
+        "rawlabel": "col3=属性2"
+      }
+    ],
+    "descname": "单维环绕气泡图"
+  },
+  "AROUND_BUBBLE_4": {
+    "rules": [
+      {
+        "label": "name",
+        "labelUS": "Name",
+        "index": "1",
+        "rawlabel": "col1=name"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "totalNumber",
+        "labelUS": "TotalNumber",
+        "index": "3",
+        "rawlabel": "col3=totalNumber"
+      },
+      {
+        "label": "id",
+        "labelUS": "ID",
+        "index": "3",
+        "rawlabel": "col3=id"
+      },
+      {
+        "label": "得分",
+        "labelUS": "Score",
+        "index": "5",
+        "rawlabel": "col5=得分"
+      },
+      {
+        "label": "排名",
+        "labelUS": "ranking",
+        "index": "6",
+        "rawlabel": "col6=排名"
+      }
+    ],
+    "descname": "环绕气泡图——四种属性值"
+  },
+  "MULTI_DIM_SPHERE": {
+    "rules": [
+      {
+        "label": "父类名称（PARENTNAME）",
+        "labelUS": "Parent class name (PARENTNAME)",
+        "index": "1",
+        "rawlabel": "col1=父类名称（PARENTNAME）"
+      },
+      {
+        "label": "子类名称（CHILDNAME）",
+        "labelUS": "Subclass name (CHILDNAME)",
+        "index": "2",
+        "rawlabel": "col2=子类名称（CHILDNAME）"
+      },
+      {
+        "label": "父类ID（PARENT_ID）(含下钻分析Filter对象)",
+        "labelUS": "Class ID (PARENT_ID) (analysis of Filter object containing drill)",
+        "index": "3",
+        "rawlabel": "col3=父类ID（PARENT_ID）(含下钻分析Filter对象)"
+      },
+      {
+        "label": "子类ID（CHILD_ID）(含下钻分析Filter对象)",
+        "labelUS": "A subclass of ID (CHILD_ID) (analysis of Filter object containing drill)",
+        "index": "4",
+        "rawlabel": "col4=子类ID（CHILD_ID）(含下钻分析Filter对象)"
+      },
+      {
+        "label": "父类总数（PARENT_VAL）",
+        "labelUS": "Total number of parent classes (PARENT_VAL)",
+        "index": "5",
+        "rawlabel": "col5=父类总数（PARENT_VAL）"
+      },
+      {
+        "label": "子类总数（CHILD_VAL）",
+        "labelUS": "Total number of subclasses (CHILD_VAL)",
+        "index": "6",
+        "rawlabel": "col6=子类总数（CHILD_VAL）"
+      }
+    ],
+    "descname": "多维圆球"
+  },
+  "FOUR_QUADRANT": {
+    "rules": [
+      {
+        "label": "聚类ID（CLUSTER_ID）",
+        "labelUS": "Cluster ID (CLUSTER_ID)",
+        "index": "1",
+        "rawlabel": "col1=聚类ID（CLUSTER_ID）"
+      },
+      {
+        "label": "聚类收入（CLUSTER_ARPU）（Y轴）",
+        "labelUS": "Cluster revenue (CLUSTER_ARPU) (Y axis)",
+        "index": "2",
+        "rawlabel": "col2=聚类收入（CLUSTER_ARPU）（Y轴）"
+      },
+      {
+        "label": "聚类影响力（CLUSTER_INFLUENCE_SCORE）（X轴）",
+        "labelUS": "Cluster influence power (CLUSTER_INFLUENCE_SCORE) (X axis)",
+        "index": "3",
+        "rawlabel": "col3=聚类影响力（CLUSTER_INFLUENCE_SCORE）（X轴）"
+      },
+      {
+        "label": "平均收入（AVG_ARPU）",
+        "labelUS": "Average income (AVG_ARPU)",
+        "index": "4",
+        "rawlabel": "col4=平均收入（AVG_ARPU）"
+      },
+      {
+        "label": "平均影响力（AVG_INFLUENCE_SCORE）",
+        "labelUS": "Average leverage (AVG_INFLUENCE_SCORE)",
+        "index": "5",
+        "rawlabel": "col5=平均影响力（AVG_INFLUENCE_SCORE）"
+      },
+      {
+        "label": "用于下钻分析（QUADRANT_ID）",
+        "labelUS": "For drill down analysis (QUADRANT_ID)",
+        "index": "6",
+        "rawlabel": "col6=用于下钻分析（QUADRANT_ID）"
+      },
+      {
+        "label": "四象限维表名称（QUADRANT_NAME_CN）",
+        "labelUS": "Four quadrant table name (QUADRANT_NAME_CN)",
+        "index": "7",
+        "rawlabel": "col7=四象限维表名称（QUADRANT_NAME_CN）"
+      },
+      {
+        "label": "统计聚类ID对应总数（COUNT）",
+        "labelUS": "Statistical clustering ID correspondence Total (COUNT)",
+        "index": "8",
+        "rawlabel": "col8=统计聚类ID对应总数（COUNT）"
+      },
+      {
+        "label": "统计某个象限对应总数（SUM）",
+        "labelUS": "Count the corresponding total number of quadrants (SUM)",
+        "index": "9",
+        "rawlabel": "col9=统计某个象限对应总数（SUM）"
+      }
+    ],
+    "descname": "四象图"
+  },
+  "SCATTER_CHART": {
+    "rules": [
+      {
+        "label": "营销渠道名称（NAME）（Y轴）",
+        "labelUS": "Marketing channel name (NAME) (Y axis)",
+        "index": "1",
+        "rawlabel": "col1=营销渠道名称（NAME）（Y轴）"
+      },
+      {
+        "label": "营销渠道ID（FLAG）",
+        "labelUS": "Marketing channel ID (FLAG)",
+        "index": "2",
+        "rawlabel": "col2=营销渠道ID（FLAG）"
+      },
+      {
+        "label": "营销渠道时刻（DATE_TIME）（X轴）",
+        "labelUS": "Marketing channel time (DATE_TIME) (X axis)",
+        "index": "3",
+        "rawlabel": "col3=营销渠道时刻（DATE_TIME）（X轴）"
+      },
+      {
+        "label": "统计值（VAL）",
+        "labelUS": "Statistical value (VAL)",
+        "index": "4",
+        "rawlabel": "col4=统计值（VAL）"
+      }
+    ],
+    "descname": "散点图"
+  },
+  "GIS_BUBBLE_CHART": {
+    "rules": [
+      {
+        "label": "纬度（XPOS）",
+        "labelUS": "Latitude (XPOS)",
+        "index": "1",
+        "rawlabel": "col1=纬度（XPOS）"
+      },
+      {
+        "label": "经度（YPOS）",
+        "labelUS": "Longitude (YPOS)",
+        "index": "2",
+        "rawlabel": "col2=经度（YPOS）"
+      },
+      {
+        "label": "方向角（DIRECTION_ANGLE）",
+        "labelUS": "Direction angle (DIRECTION_ANGLE)",
+        "index": "3",
+        "rawlabel": "col3=方向角（DIRECTION_ANGLE）"
+      },
+      {
+        "label": "小区名字（CELL_NAME）",
+        "labelUS": "Cell name (CELL_NAME)",
+        "index": "4",
+        "rawlabel": "col4=小区名字（CELL_NAME）"
+      },
+      {
+        "label": "小区ID（CELL_ID）",
+        "labelUS": "Cell ID (CELL_ID)",
+        "index": "5",
+        "rawlabel": "col5=小区ID（CELL_ID）"
+      },
+      {
+        "label": "数量（NUM）",
+        "labelUS": "Quantity (NUM)",
+        "index": "6",
+        "rawlabel": "col6=数量（NUM）"
+      }
+    ],
+    "descname": "GIS气泡图"
+  },
+  "GIS_BUBBLE_CHART_DETAIL": {
+    "rules": [
+      {
+        "label": "纬度（XPOS）",
+        "labelUS": "Latitude (XPOS)",
+        "index": "1",
+        "rawlabel": "col1=纬度（XPOS）"
+      },
+      {
+        "label": "经度（YPOS）",
+        "labelUS": "Longitude (YPOS)",
+        "index": "2",
+        "rawlabel": "col2=经度（YPOS）"
+      },
+      {
+        "label": "方向角（DIRECTION_ANGLE）",
+        "labelUS": "Direction angle (DIRECTION_ANGLE)",
+        "index": "3",
+        "rawlabel": "col3=方向角（DIRECTION_ANGLE）"
+      },
+      {
+        "label": "小区名字（CELL_NAME）",
+        "labelUS": "Cell name (CELL_NAME)",
+        "index": "4",
+        "rawlabel": "col4=小区名字（CELL_NAME）"
+      },
+      {
+        "label": "小区类型（CELL_TYPE）",
+        "labelUS": "Cell type (CELL_TYPE)",
+        "index": "5",
+        "rawlabel": "col5=小区类型（CELL_TYPE）"
+      },
+      {
+        "label": "小区ID（CELL_ID）",
+        "labelUS": "Cell ID (CELL_ID)",
+        "index": "6",
+        "rawlabel": "col6=小区ID（CELL_ID）"
+      },
+      {
+        "label": "配色（color）",
+        "labelUS": "Color matching (color)",
+        "index": "7",
+        "rawlabel": "col7=配色（color）"
+      },
+      {
+        "label": "指标取值范围（range）",
+        "labelUS": "Index range (range)",
+        "index": "8",
+        "rawlabel": "col8=指标取值范围（range）"
+      },
+      {
+        "label": "统计数量（NUM）",
+        "labelUS": "Statistical quantity (NUM)",
+        "index": "9",
+        "rawlabel": "col9=统计数量（NUM）"
+      },
+      {
+        "label": "用户人数（TOTAL_USER）",
+        "labelUS": "Number of users (TOTAL_USER)",
+        "index": "10",
+        "rawlabel": "col10=用户人数（TOTAL_USER）"
+      }
+    ],
+    "descname": "GIS气泡展示详情"
+  },
+  "GIS_REGION": {
+    "rules": [
+      {
+        "label": "行政区域名称",
+        "labelUS": "Administrative region name",
+        "index": "1",
+        "rawlabel": "col1=行政区域名称"
+      },
+      {
+        "label": "行政区域ID",
+        "labelUS": "Administrative region ID",
+        "index": "2",
+        "rawlabel": "col2=行政区域ID"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "GIS行政区域"
+  },
+  "GIS_HEATMAP": {
+    "rules": [
+      {
+        "label": "纬度（XPOS）",
+        "labelUS": "Latitude (XPOS)",
+        "index": "1",
+        "rawlabel": "col1=纬度（XPOS）"
+      },
+      {
+        "label": "经度（YPOS）",
+        "labelUS": "Longitude (YPOS)",
+        "index": "2",
+        "rawlabel": "col2=经度（YPOS）"
+      },
+      {
+        "label": "方向角（DIRECTION_ANGLE）",
+        "labelUS": "Direction angle (DIRECTION_ANGLE)",
+        "index": "3",
+        "rawlabel": "col3=方向角（DIRECTION_ANGLE）"
+      },
+      {
+        "label": "小区名字（CELL_NAME）",
+        "labelUS": "Cell name (CELL_NAME)",
+        "index": "4",
+        "rawlabel": "col4=小区名字（CELL_NAME）"
+      },
+      {
+        "label": "小区ID（CELL_ID）",
+        "labelUS": "Cell ID (CELL_ID)",
+        "index": "5",
+        "rawlabel": "col5=小区ID（CELL_ID）"
+      },
+      {
+        "label": "数量（NUM）",
+        "labelUS": "Quantity (NUM)",
+        "index": "6",
+        "rawlabel": "col6=数量（NUM）"
+      }
+    ],
+    "descname": "GIS热力图"
+  },
+  "BAR_GRAPHS": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "2",
+        "rawlabel": "col2=统计值"
+      }
+    ],
+    "descname": "历史趋势柱状图"
+  },
+  "FLOW_TREE": {
+    "rules": [
+      {
+        "label": "展示名称",
+        "labelUS": "Display name",
+        "index": "1",
+        "rawlabel": "col1=展示名称"
+      },
+      {
+        "label": "标记(含下钻分析Filter对象)",
+        "labelUS": "Mark (analysis of Filter object containing drill)",
+        "index": "2",
+        "rawlabel": "col2=标记(含下钻分析Filter对象)"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "3",
+        "rawlabel": "col3=统计值"
+      }
+    ],
+    "descname": "树结构"
+  },
+  "MULTI_VALUE_GIS": {
+    "rules": [
+      {
+        "label": "配色",
+        "labelUS": "Color",
+        "index": "1",
+        "rawlabel": "col1=配色"
+      },
+      {
+        "label": "重要性取值范围",
+        "labelUS": "Range of importance",
+        "index": "2",
+        "rawlabel": "col2=重要性取值范围"
+      },
+      {
+        "label": "纬度（XPOS）",
+        "labelUS": "Latitude (XPOS)",
+        "index": "3",
+        "rawlabel": "col3=纬度（XPOS）"
+      },
+      {
+        "label": "经度（YPOS）",
+        "labelUS": "Longitude (YPOS)",
+        "index": "4",
+        "rawlabel": "col4=经度（YPOS）"
+      },
+      {
+        "label": "方向角（DIRECTION_ANGLE）",
+        "labelUS": "Direction angle (DIRECTION_ANGLE)",
+        "index": "5",
+        "rawlabel": "col5=方向角（DIRECTION_ANGLE）"
+      },
+      {
+        "label": "小区ID（CELL_ID）",
+        "labelUS": "Cell ID (CELL_ID)",
+        "index": "6",
+        "rawlabel": "col6=小区ID（CELL_ID）"
+      },
+      {
+        "label": "小区名字（CELL_NAME）",
+        "labelUS": "Cell name (CELL_NAME)",
+        "index": "7",
+        "rawlabel": "col7=小区名字（CELL_NAME）"
+      },
+      {
+        "label": "统计值",
+        "labelUS": "Statistical value",
+        "index": "8",
+        "rawlabel": "col8=统计值"
+      },
+      {
+        "label": "用户人数",
+        "labelUS": "Number of users",
+        "index": "9",
+        "rawlabel": "col9=用户人数"
+      }
+    ],
+    "descname": "GIS定界"
+  },
+  "TOP_CLUSTER_BUBBLE": {
+    "rules": [
+      {
+        "label": "重要性取值范围",
+        "labelUS": "Range of importance",
+        "index": "1",
+        "rawlabel": "col1=重要性取值范围"
+      },
+      {
+        "label": "纬度（XPOS）",
+        "labelUS": "Latitude (XPOS)",
+        "index": "2",
+        "rawlabel": "col2=纬度（XPOS）"
+      },
+      {
+        "label": "经度（YPOS）",
+        "labelUS": "Longitude (YPOS)",
+        "index": "3",
+        "rawlabel": "col3=经度（YPOS）"
+      }
+    ],
+    "descname": "TOP 汇聚气泡"
+  },
+  "GIS_DOUBLE_COORDINATE": {
+    "rules": [
+      {
+        "label": "小区ID",
+        "labelUS": "Community ID",
+        "index": "1",
+        "rawlabel": "Column_1=小区ID"
+      },
+      {
+        "label": "小区名字",
+        "labelUS": "Cell name",
+        "index": "2",
+        "rawlabel": "Column_2=小区名字"
+      },
+      {
+        "label": "小区经度",
+        "labelUS": "Cell longitude",
+        "index": "3",
+        "rawlabel": "Column_3=小区经度"
+      },
+      {
+        "label": "小区纬度",
+        "labelUS": "Plot latitude",
+        "index": "4",
+        "rawlabel": "Column_4=小区纬度"
+      },
+      {
+        "label": "营业厅名称",
+        "labelUS": "Business hall name",
+        "index": "5",
+        "rawlabel": "Column_5=营业厅名称"
+      },
+      {
+        "label": "营业厅经度",
+        "labelUS": "Business hall longitude",
+        "index": "6",
+        "rawlabel": "Column_6=营业厅经度"
+      },
+      {
+        "label": "营业厅纬度",
+        "labelUS": "Business hall latitude",
+        "index": "7",
+        "rawlabel": "Column_7=营业厅纬度"
+      },
+      {
+        "label": "营业厅与小区距离",
+        "labelUS": "Distance between business hall and residential area",
+        "index": "8",
+        "rawlabel": "Column_8=营业厅与小区距离"
+      },
+      {
+        "label": "营业厅图标路径",
+        "labelUS": "Business hall icon path",
+        "index": "9",
+        "rawlabel": "Column_9=营业厅图标路径"
+      },
+      {
+        "label": "小区总人数/小区总流量",
+        "labelUS": "Total population / plot total flow",
+        "index": "10",
+        "rawlabel": "Column_10=小区总人数/小区总流量"
+      }
+    ],
+    "descname": "GIS双座标"
+  }
+}
